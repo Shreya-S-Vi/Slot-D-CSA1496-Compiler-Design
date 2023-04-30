@@ -1,3 +1,7 @@
+/*The lexical analyzer should ignore redundant spaces, tabs and new lines. 
+It should also ignore comments. Although the syntax specification states that identifiers can be arbitrarily long, you may restrict the length to some reasonable value. 
+Develop a lexical Analyzer to identify identifiers, constants, operators using C program.*/
+
 #include <stdio.h>
 #include <stdbool.h> 
 #include <string.h> 
